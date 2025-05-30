@@ -1,0 +1,14 @@
+
+body {
+  margin: 0; padding: 0; background: #222; color: white; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100vh;
+}
+#game-container {
+  text-align: center;
+}
+#gameCanvas {
+  background: url('images/court.jpg') no-repeat center center;
+  background-size: cover;
+  border: 2px solid white;
+}
